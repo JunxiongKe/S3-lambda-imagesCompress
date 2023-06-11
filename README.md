@@ -15,9 +15,10 @@ npm install sharp
 
 4.构建压缩包
 //进入到S3-lambda-imagesCompress目录，zip生成压缩包
+
 cd ..
 zip -r function.zip .
 
-5.上传到AWS Lambda
+5.把zip包上传到AWS Lambda
 
 6.配置Lambda对应的S3触发事件源
